@@ -1,0 +1,16 @@
+[
+{
+  "modid": "timeisup",
+  "name": "Time's up",
+  "description": "Every dimension has a timer.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Naturaspell"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

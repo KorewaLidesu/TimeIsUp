@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ggb",
+        "geg",
+        "ggg"
+    ],
+    "key":
+    {
+        "g":
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        "b":
+        {
+            "item": "minecraft:gold_block"
+        },
+        "e":
+        {
+        	"item": "minecraft:ender_eye"
+        }
+    },
+    "result":
+    {
+        "item": "timeisup:timer_anchor",
+        "count": 1
+    }
+}

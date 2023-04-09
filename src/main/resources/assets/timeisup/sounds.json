@@ -1,0 +1,50 @@
+{
+  "timer": {
+    "sounds": [
+    	{
+    		"name": "note/bell",
+    		"volume": 1.1,
+        	"pitch": 0.5
+        }
+    ],
+    "subtitle": "subtitles.timer"
+   },
+   "ward.on": {
+    "sounds": [
+		{
+    		"name": "step/cloth1",
+    		"volume": 0.8
+		},
+		{
+    		"name": "step/cloth2",
+    		"volume": 0.8
+		},
+		{
+    		"name": "step/cloth3",
+    		"volume": 0.8
+		},
+		{
+    		"name": "step/cloth4",
+    		"volume": 0.8
+		}
+    ],
+    "subtitle": "subtitles.ward.on"
+  },
+  "ward.off": {
+    "sounds": [
+		{
+    		"name": "random/glass1",
+    		"volume": 0.8
+		},
+		{
+    		"name": "random/glass2",
+    		"volume": 0.8
+		},
+		{
+    		"name": "random/glass3",
+    		"volume": 0.8
+		}
+    ],
+    "subtitle": "subtitles.ward.off"
+  }
+}

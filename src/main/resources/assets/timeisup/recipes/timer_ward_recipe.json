@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "h",
+        "g",
+        "s"
+    ],
+    "key":
+    {
+        "g":
+        {
+            "item": "minecraft:gold_block"
+        },
+        "h":
+        {
+            "item": "timeisup:timer_ward_head"
+        },
+        "s":
+        {
+        	"item": "minecraft:stick"
+        }
+    },
+    "result":
+    {
+        "item": "timeisup:timer_ward",
+        "count": 1
+    }
+}

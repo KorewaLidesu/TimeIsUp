@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "timeisup:items/ward_head"
+    }
+
+}

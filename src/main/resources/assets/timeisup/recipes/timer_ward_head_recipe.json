@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " e ",
+        "ede",
+        " e "
+    ],
+    "key":
+    {
+        "e":
+        {
+            "item": "minecraft:ender_pearl"
+        },
+        "d":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result":
+    {
+        "item": "timeisup:timer_ward_head",
+        "count": 1
+    }
+}

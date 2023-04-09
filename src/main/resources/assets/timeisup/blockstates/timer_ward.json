@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "timeisup:timer_ward"
+    },
+    "facing=west": {
+      "model": "timeisup:timer_ward"
+    },
+    "facing=north": {
+      "model": "timeisup:timer_ward"
+    },
+    "facing=south": {
+      "model": "timeisup:timer_ward"
+    },
+    "facing=up": {
+      "model": "timeisup:timer_ward"
+    }
+  }
+}

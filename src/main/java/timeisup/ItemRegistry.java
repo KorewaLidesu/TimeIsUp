@@ -33,7 +33,7 @@ public class ItemRegistry {
 
 	public static final CreativeTabs TAB_TIMEISUP = new CreativeTabs(TimeIsUp.MODID) {
 	      @SideOnly(Side.CLIENT)
-	      public ItemStack getTabIconItem() {
+	      public ItemStack createIcon() {
 	         return new ItemStack(ItemRegistry.timer_anchor);
 	      }
 	};
@@ -44,7 +44,7 @@ public class ItemRegistry {
 	public static final IRecipe CRAFTING_SPECIAL_REFILLITEM = new RefillItem().setRegistryName(TimeIsUp.MODID, "refill_item");
 	
 	public static TimerWard ward = new TimerWard();
-	public static Item ward_item = new ItemBlock(ward).setRegistryName(ward.getRegistryName()).setUnlocalizedName(ward.getUnlocalizedName());
+	public static Item ward_item = new ItemBlock(ward).setRegistryName(ward.getRegistryName()).setTranslationKey(ward.getTranslationKey());
 	
 	
 	@SubscribeEvent

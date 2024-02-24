@@ -28,7 +28,7 @@ public class TimerBonus extends Item {
 	public TimerBonus() {
 		super();
 		this.setRegistryName(TimeIsUp.MODID, "timer_bonus");
-		this.setUnlocalizedName(TimeIsUp.MODID+".timer_bonus");
+		this.setTranslationKey(TimeIsUp.MODID+".timer_bonus");
 		this.setCreativeTab(ItemRegistry.TAB_TIMEISUP);
 	}
 		

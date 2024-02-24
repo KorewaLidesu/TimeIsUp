@@ -17,7 +17,7 @@ public class TimerWard extends BlockTorch {
 	public TimerWard() {
 		super();
 		this.setRegistryName(TimeIsUp.MODID, "timer_ward");
-		this.setUnlocalizedName(TimeIsUp.MODID+".timer_ward");
+		this.setTranslationKey(TimeIsUp.MODID+".timer_ward");
 		this.setCreativeTab(ItemRegistry.TAB_TIMEISUP);
 		this.setHardness(2.0F);
 		this.setResistance(2.0F);

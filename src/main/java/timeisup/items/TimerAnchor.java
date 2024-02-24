@@ -37,7 +37,7 @@ public class TimerAnchor extends Item {
 	public TimerAnchor() {
 		super();
 		this.setRegistryName(TimeIsUp.MODID, "timer_anchor");
-		this.setUnlocalizedName(TimeIsUp.MODID+".timer_anchor");
+		this.setTranslationKey(TimeIsUp.MODID+".timer_anchor");
 		this.setCreativeTab(ItemRegistry.TAB_TIMEISUP);
 		this.setMaxDamage(11);
 	}
@@ -103,7 +103,7 @@ public class TimerAnchor extends Item {
 	 public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		 super.addInformation(stack, worldIn, tooltip, flagIn);
 		 if(stack.getItemDamage() >= stack.getMaxDamage() - 1)
-			 tooltip.add(TextFormatting.GREEN+"Refill with "+ I18n.translateToLocal(Items.ENDER_PEARL.getUnlocalizedName()+".name"));
+			 tooltip.add(TextFormatting.GREEN+"Refill with "+ I18n.translateToLocal(Items.ENDER_PEARL.getTranslationKey()+".name"));
 		 else if(worldIn != null) {
 			 Minecraft mc = Minecraft.getMinecraft();
 			 int duration = 0;

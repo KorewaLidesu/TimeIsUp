@@ -106,7 +106,7 @@ public class DoomEffect extends Potion {
 	
 	private static BlockPos getTopSolidOrLiquidBlock(World world, BlockPos pos)
     {
-        Chunk chunk = world.getChunkFromBlockCoords(pos);
+        Chunk chunk = world.getChunk(pos);
         BlockPos blockpos;    
         blockpos = new BlockPos(pos.getX(), Math.min(chunk.getTopFilledSegment() + 16,pos.getY()) + 1, pos.getZ()); 
         int bottom = Math.max(0, pos.getY()-12);
